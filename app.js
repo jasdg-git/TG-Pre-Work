@@ -95,3 +95,6 @@ let myCity = 'San diego';
 console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
 
 
+const kelvin = 294;
+
+
