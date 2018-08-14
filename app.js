@@ -102,3 +102,9 @@ const kelvin = 294;
 const kelvin = 294;
 
 
+// Kelvin constant for conversion
+const kelvin = 294;
+
+let celsius = kelvin - 273;
+
+
