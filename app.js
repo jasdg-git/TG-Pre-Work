@@ -154,3 +154,15 @@ let celsius = kelvin - 273;
 let fahrenheit = Math.floor(celsius * (9/5) + 32);
 
 
+// Kelvin constant for conversion
+const kelvin = 294;
+
+// celsius is 273 degrees less than Kelvin
+let celsius = kelvin - 273;
+
+// formula to convert Celsius to Fahrenheit rounded down
+let fahrenheit = Math.floor(celsius * (9/5) + 32);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+
