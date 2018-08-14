@@ -98,3 +98,7 @@ console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
 const kelvin = 294;
 
 
+// Kelvin constant for conversion
+const kelvin = 294;
+
+
