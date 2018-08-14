@@ -86,3 +86,7 @@ particle *= 6.02;
 assay += 1;
 
 
+let favoriteAnimal = 'horse';
+console.log("My favorite animal: " + favoriteAnimal);
+
+
