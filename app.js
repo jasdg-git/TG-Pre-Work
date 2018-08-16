@@ -209,3 +209,11 @@ if (knowsJavaScript && userName) {
 }
 
 
+let isSoccerFan = true;
+if (isSoccerFan) {
+  console.log('Goall');
+} else {
+  console.log('No goall');
+}
+
+
