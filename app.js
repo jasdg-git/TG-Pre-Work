@@ -1053,4 +1053,40 @@ console.log(person.sayHello());
 console.log(friend.sayHello());
 
 
+let person = {
+  name: 'jason',
+  age: 40,
+  weekendAlarm: 'No alarm needed',
+  weekAlarm: 'Alarm set to 7AM',
+  
+  sayGoodbye() { return 'Goodbye!';},
+  sayHello() {return `Hello, my name is ${this.name}`}
+};
+
+person.hobbies = ['soccer', 'movies'];
+person.hobbies = ['trading'];
+//person.sayHello = () => `Hello, my name is ${this.name}`;
+
+let friend = {
+  name: 'steve'
+};
+let day = 'Sunday';
+let alarm;
+
+friend.sayHello = person.sayHello;
+
+if (day === 'Saturday' || day === 'Sunday') {
+  alarm = 'weekendAlarm';
+} else {
+  alarm = 'weekAlarm';
+}
+
+console.log(person['name']);
+console.log(person['age']);
+console.log(person[alarm]);
+console.log(person.hobbies);
+console.log(person.sayHello());
+console.log(friend.sayHello());
+
+
 
