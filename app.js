@@ -1653,4 +1653,11 @@ let sauce = "Eggs and cheese"; // ES6 syntax
 const carbonara = `You can make carbonara with ${pasta}, ${meat}, and a sauce made with ${sauce}.`;
 
 
+// Set the variable below to a number
+let esFivePercentageSupport = 98.2;
+
+// Set the variable below to a number
+let esSixTemplateLiterals = 89.62;
+
+
 
