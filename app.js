@@ -514,5 +514,19 @@ const volumeOfSphere = (diameter) => {
 console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
 
 
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+let stars = 'North Star';
+
+const myNightSky = function() { 
+  stars = 'Sirius';
+  return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+};
+
+console.log(myNightSky());
+console.log(stars);
+
+
+
 
 
