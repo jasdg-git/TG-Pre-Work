@@ -673,4 +673,17 @@ console.log(groceryList);
 console.log(groceryList.slice(1,4));
 
 
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments.push('mayonnaise');
+console.log(condiments);
+condiments = ['single string'];
+console.log(condiments);
+utensils.pop();
+console.log(utensils);
+utensils = ['spoon'];
+
+
 
