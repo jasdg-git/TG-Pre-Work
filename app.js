@@ -701,4 +701,10 @@ for (let i = 0; i<cookies.length; i++) {
 }
 
 
+let vacationSpots = ['carribean', 'new zealand', 'canada'];
+for (let vacationSpotIndex=vacationSpots.length-1;vacationSpotIndex>=0; vacationSpotIndex--) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
+
+
 
