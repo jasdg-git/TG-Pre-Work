@@ -713,4 +713,10 @@ for (let vacationSpotIndex=vacationSpots.length-1;vacationSpotIndex>=0; vacation
 }
 
 
+let vacationSpots = ['carribean', 'new zealand', 'canada'];
+for (let vacationSpotIndex=vacationSpots.length-1;vacationSpotIndex>=0; vacationSpotIndex--) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
+
+
 
