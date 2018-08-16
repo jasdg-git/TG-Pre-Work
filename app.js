@@ -425,3 +425,13 @@ pressPowerButton();
 const takeOrder = () => { console.log('Order: pizza') };
 takeOrder();
 
+
+const takeOrder = (topping) => {
+  console.log('Order: pizza with ' + topping);
+};
+
+takeOrder('mushrooms');
+
+
+
+
