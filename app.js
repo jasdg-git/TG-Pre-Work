@@ -422,3 +422,6 @@ pressPowerButton();
 // Output: Calculator turning off.
 
 
+const takeOrder = () => { console.log('Order: pizza') };
+takeOrder();
+
